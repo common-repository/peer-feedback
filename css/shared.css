@@ -1,0 +1,117 @@
+.rubricTable
+{
+	border-collapse: collapse;
+
+}
+
+.successText
+{
+	color:#090;	
+}
+
+.alertText
+{
+	color:#F60;
+}
+.failText
+{
+	color:#af1616;
+}
+
+.rubricTable
+{
+	border-collapse: collapse;
+
+}
+
+.rubricTable td, .rubricTable th
+{
+	border:1px solid #ccc;
+	padding:10px;
+	width:100px;
+	vertical-align: text-top;
+}
+
+.rubricTable .descriptor
+{
+	font-size:12px;
+}
+
+
+.rubricTableClickable:hover, .rubricTableClickable label.descriptor {
+
+/*	background: #e1e1e1; */
+	cursor: pointer;
+}
+
+.rubricTable tr:hover
+{
+	background:#f1f1f1;
+}
+
+.rubricTable .td-toggle
+{
+	text-align: center;
+}
+
+.rubricTable .td-highlight
+{
+	background-color:#153b77;
+	color:#fff;
+	font-weight:bold;
+}
+
+
+.rubricTable .td-green-highlight 
+{
+	background:#090;
+	color:#fff;
+}
+
+
+
+.feedbackTextResponse
+{
+	border:1px solid #ccc;
+	margin: 20px 0px 20px 0px;
+	padding:0px 10px 0px 20px;
+	box-shadow: 4px 4px 12px #888888;
+	width:90%;
+	
+}
+
+
+.feedbackTextResponse blockquote {
+	display:block;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  
+}
+.feedbackTextResponse blockquote:before {
+content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+/*Reset to make sure*/
+.feedbackTextResponse  blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
